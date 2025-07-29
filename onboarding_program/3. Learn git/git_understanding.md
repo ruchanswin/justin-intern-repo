@@ -16,7 +16,8 @@ https://github.com/facebook/react/pull/34026
 - The PR then went through testing cases by a code maintainer to make sure the code meets the requirements and no conflicts appear between the feature branch and the main branch.
 - I learn from reviewing an open-source PR how professional developers writing titles, descriptions and providing feedback of the PRs by using technical norms and respectful languages. All the commit messages are in English, which allows for better understanding and communication since English is the most popular language in the world.
 - I can see the flow of requests for changes, approvals, and merges.
-- I can see how developers collaborate with each other even though they have different schedules and working styles. Due to their meaningful commit messages, they can keep track with the current progress and enable later reviews
+- I can see how developers collaborate with each other even though they have different schedules and working styles. Due to their meaningful commit messages, they can keep track with the current progress and enable later reviews.
+- I can see the way a professional pull request is made.
 # Writing Meaningful Commit Messages
 * Explore commit histories in an open-source GitHub project (React) and analyze good vs. bad commit messages.
 - Good commit messages in React: They use convention like "Bug:", "Compile Bug" or "Feature Request" to indicate the types of changes. The tiles are clear, which state the current problems and where they happen. The description are informative, which demonstrate the types of issue, the link to the repo, the frequency of the errors, the versions of React and React Complier that the developer is using.
