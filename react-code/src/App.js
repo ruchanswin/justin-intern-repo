@@ -1,6 +1,6 @@
-import React from 'react';
-import './App.css';
-import Greeting from './components/Implementing-Internationalization-with-i18next/Greeting';
+import React from "react";
+import "./App.css";
+import Greeting from "./components/Implementing-Internationalization-with-i18next/Greeting";
 
 function App() {
   return (

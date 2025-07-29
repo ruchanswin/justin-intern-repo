@@ -1,14 +1,14 @@
-import React, { useState, useCallback } from 'react';
-import ChildComponent from './ChildComponent';
+import React, { useState, useCallback } from "react";
+import ChildComponent from "./ChildComponent";
 
 const ParentComponent = () => {
   const [count, setCount] = useState(0);
 
   const handleClick = useCallback(() => {
-    console.log('🔘 Button clicked');
+    console.log("🔘 Button clicked");
   }, []); // 🔁 Will not change on re-renders
 
-  console.log('🔁 ParentComponent rendered');
+  console.log("🔁 ParentComponent rendered");
 
   return (
     <div>

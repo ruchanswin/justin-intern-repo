@@ -1,6 +1,6 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
-import { selectCounter } from './store';
+import React from "react";
+import { useSelector } from "react-redux";
+import { selectCounter } from "./store";
 
 const Message = () => {
   const count = useSelector(selectCounter);

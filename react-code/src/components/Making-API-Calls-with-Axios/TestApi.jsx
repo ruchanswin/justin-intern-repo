@@ -1,18 +1,18 @@
-import React, { useEffect } from 'react';
-import { api, controller } from './api';
+import React, { useEffect } from "react";
+import { api, controller } from "./api";
 
 function TestApi() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await api.post('/posts', {
-          title: 'Focus Bear Test',
-          body: 'Hello world!',
-          userId: 1
+        const res = await api.post("/posts", {
+          title: "Focus Bear Test",
+          body: "Hello world!",
+          userId: 1,
         });
-        console.log('Response:', res.data);
+        console.log("Response:", res.data);
       } catch (err) {
-        console.error('Request failed:', err.message);
+        console.error("Request failed:", err.message);
       }
     };
 

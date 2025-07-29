@@ -1,30 +1,33 @@
-import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
+import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
-export const fetchDummyData = createAsyncThunk('counter/fetchDummy', async () => {
-  return 5;
-});
+export const fetchDummyData = createAsyncThunk(
+  "counter/fetchDummy",
+  async () => {
+    return 5;
+  },
+);
 
 const counterSlice = createSlice({
-  name: 'counter',
-  initialState: { value: 0, status: 'idle' },
+  name: "counter",
+  initialState: { value: 0, status: "idle" },
   reducers: {
-    increment: state => {
+    increment: (state) => {
       state.value += 1;
     },
     incrementByAmount: (state, action) => {
       state.value += action.payload;
-    }
+    },
   },
-  extraReducers: builder => {
+  extraReducers: (builder) => {
     builder
-      .addCase(fetchDummyData.pending, state => {
-        state.status = 'loading';
+      .addCase(fetchDummyData.pending, (state) => {
+        state.status = "loading";
       })
       .addCase(fetchDummyData.fulfilled, (state, action) => {
-        state.status = 'succeeded';
+        state.status = "succeeded";
         state.value += action.payload;
       });
-  }
+  },
 });
 
 export const { increment, incrementByAmount } = counterSlice.actions;
