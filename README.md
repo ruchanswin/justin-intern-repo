@@ -1,3 +1,0 @@
-# justin-intern-repo
-
-The repo is used to demonstrate onboarding program in Focus Bear. The internship lasts for around 12 weeks, with at least 120 hours of work.
