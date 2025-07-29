@@ -14,10 +14,15 @@
 - It is linked to a current issue to provide context.
 - The changes are small and meaningful for future reviews.
 - The PR allows every member to provide feedback and ask for clarification.
-* What did you learn from reviewing an open-source PR? (React PRs)
+* What did you learn from reviewing an open-source PR? (React PRs).
+## Specific Example
+https://github.com/facebook/react/pull/34026
+- The title is clear to show what was changed (Allow assigning ref-accessing functions to objects if not mutated) and where was changed (complier)
+- The description restated the change and demonstrated how it should be changed (rewrite the ref validation to use the new mutation/aliasing effects, which would provide a more consistent behavior across instruction types and require fewer special cases like this.)
+- The PR then went through testing cases by a code maintainer to make sure the code meets the requirements and no conflicts appear between the feature branch and the main branch.
 - I learn from reviewing an open-source PR how professional developers writing titles, descriptions and providing feedback of the PRs by using technical norms and respectful languages. All the commit messages are in English, which allows for better understanding and communication since English is the most popular language in the world.
 - I can see the flow of requests for changes, approvals, and merges.
-- I can see how developers collaborate with each other even though they have different schedules and working styles. Due to their meaningful commit messages, they can keep track with the current progress and enable later reviews.
+- I can see how developers collaborate with each other even though they have different schedules and working styles. Due to their meaningful commit messages, they can keep track with the current progress and enable later reviews
 # Writing Meaningful Commit Messages
 * Explore commit histories in an open-source GitHub project (React) and analyze good vs. bad commit messages.
 - Good commit messages in React: They use convention like "Bug:", "Compile Bug" or "Feature Request" to indicate the types of changes. The tiles are clear, which state the current problems and where they happen. The description are informative, which demonstrate the types of issue, the link to the repo, the frequency of the errors, the versions of React and React Complier that the developer is using.
