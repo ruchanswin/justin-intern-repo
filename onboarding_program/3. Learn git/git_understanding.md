@@ -9,12 +9,6 @@
 - They are essential for reviewing code to make sure all the bugs are found and fixed and the code meets business and user requirements.
 - They allow team members to trace all the code modifications, so that if there are any incidents, the team can go back to previous states and fix it.
 - For new members such as interns, PRs act as documentation for them to review the codebase to understand coding practices, tools and convention that the company uses.
-* What makes a well-structured PR?
-- It has clear title and description to show what was changed, why/how it was changed and who changed it.
-- It is linked to a current issue to provide context.
-- The changes are small and meaningful for future reviews.
-- The PR allows every member to provide feedback and ask for clarification.
-* What did you learn from reviewing an open-source PR? (React PRs).
 ## Specific Example
 https://github.com/facebook/react/pull/34026
 - The title is clear to show what was changed (Allow assigning ref-accessing functions to objects if not mutated) and where was changed (complier)
