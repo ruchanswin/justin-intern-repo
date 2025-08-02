@@ -9,7 +9,7 @@ export const fetchDummyData = createAsyncThunk(
 
 const counterSlice = createSlice({
   name: "counter",
-  initialState: { value: 0, status: "idle" },
+  initialState: { value: 0, status: "ready" },
   reducers: {
     increment: (state) => {
       state.value += 1;
@@ -21,10 +21,10 @@ const counterSlice = createSlice({
   extraReducers: (builder) => {
     builder
       .addCase(fetchDummyData.pending, (state) => {
-        state.status = "loading";
+        state.status = "pending";
       })
       .addCase(fetchDummyData.fulfilled, (state, action) => {
-        state.status = "succeeded";
+        state.status = "completed";
         state.value += action.payload;
       });
   },

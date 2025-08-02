@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function Parent() {
   const [state, setState] = useState({ count: 0 });

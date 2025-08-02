@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { api, controller } from "./api";
 
 function TestApi() {

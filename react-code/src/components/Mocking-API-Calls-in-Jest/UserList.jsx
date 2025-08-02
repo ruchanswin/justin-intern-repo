@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { fetchUsers } from "./api";
 
 function UserList() {
@@ -12,7 +12,7 @@ function UserList() {
   }, []);
 
   if (error) return <div>{error}</div>;
-  if (!users.length) return <div>Loading...</div>;
+  if (!users.length) return <div>Currently Loading...</div>;
 
   return (
     <ul>

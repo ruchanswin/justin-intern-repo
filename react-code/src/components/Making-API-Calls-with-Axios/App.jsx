@@ -1,4 +1,3 @@
-import React from "react";
 import TestApi from "./TestApi";
 
 function App() {

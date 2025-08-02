@@ -8,17 +8,17 @@ describe("counter reducer", () => {
   it("should return the initial state", () => {
     expect(reducer(undefined, { type: undefined })).toEqual({
       value: 0,
-      status: "idle",
+      status: "ready",
     });
   });
 
   it("should handle increment", () => {
-    const state = reducer({ value: 0, status: "idle" }, increment());
+    const state = reducer({ value: 0, status: "ready" }, increment());
     expect(state.value).toBe(1);
   });
 
   it("should handle incrementByAmount", () => {
-    const state = reducer({ value: 2, status: "idle" }, incrementByAmount(5));
+    const state = reducer({ value: 2, status: "ready" }, incrementByAmount(5));
     expect(state.value).toBe(7);
   });
 
@@ -27,8 +27,8 @@ describe("counter reducer", () => {
       type: fetchDummyData.fulfilled.type,
       payload: 5,
     };
-    const state = reducer({ value: 2, status: "loading" }, action);
-    expect(state.status).toBe("succeeded");
+    const state = reducer({ value: 2, status: "pending" }, action);
+    expect(state.status).toBe("completed");
     expect(state.value).toBe(7);
   });
 });
