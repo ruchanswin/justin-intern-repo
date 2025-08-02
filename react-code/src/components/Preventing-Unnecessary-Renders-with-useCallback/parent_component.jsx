@@ -1,5 +1,5 @@
 import { useState, useCallback } from "react";
-import ChildComponent from "./ChildComponent";
+import ChildComponent from "./child_component";
 
 const ParentComponent = () => {
   const [count, setCount] = useState(0);

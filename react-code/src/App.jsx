@@ -1,13 +1,12 @@
 import "./App.css";
-import React from "react";
-import Counter from "./components/Using-Selectors-in-Redux-Toolkit/Counter.jsx";
-// import Message from "./components/Using-Selectors-in-Redux-Toolkit/Message.jsx";
+import Counter from "./components/Using-Selectors-in-Redux-Toolkit/counter";
+import Message from "./components/Using-Selectors-in-Redux-Toolkit/message";
 
 function App() {
   return (
     <div className="App">
       <Counter />
-      {/* <Message /> */}
+      <Message />
     </div>
   );
 }

@@ -5,24 +5,24 @@ import reducer, {
 } from "./counterSlice";
 
 describe("counter reducer", () => {
-  it("should return the initial state", () => {
+  it("Return to the initial state", () => {
     expect(reducer(undefined, { type: undefined })).toEqual({
       value: 0,
       status: "ready",
     });
   });
 
-  it("should handle increment", () => {
+  it("Handle increment", () => {
     const state = reducer({ value: 0, status: "ready" }, increment());
     expect(state.value).toBe(1);
   });
 
-  it("should handle incrementByAmount", () => {
+  it("Handle incrementByAmount", () => {
     const state = reducer({ value: 2, status: "ready" }, incrementByAmount(5));
     expect(state.value).toBe(7);
   });
 
-  it("should handle fetchDummyData.fulfilled", () => {
+  it("Handle fetchDummyData.fulfilled", () => {
     const action = {
       type: fetchDummyData.fulfilled.type,
       payload: 5,

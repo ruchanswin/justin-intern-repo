@@ -4,13 +4,14 @@ import { selectCounter } from "./store";
 const Message = () => {
   const count = useSelector(selectCounter);
 
-  let message = "Let's get started!";
-  if (count > 5) message = "You're doing great!";
-  else if (count < 0) message = "Try to stay positive!";
-
+  let message = "Let's go!";
+  if (count > 5) message = "Push yourself further!";
+  else if (count < 5 && count > 0) message = "Keep it up!";
+  else if (count < 0) message = "Don't give up just yet!";
+  
   return (
     <div>
-      <h3>Message:</h3>
+      <h1>Our lovely message:</h1>
       <p>{message}</p>
     </div>
   );

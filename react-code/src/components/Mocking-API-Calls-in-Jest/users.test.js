@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom";
 import { render, screen, waitFor } from "@testing-library/react";
-import UserList from "./UserList";
+import UserList from "./users";
 import * as api from "./api";
 
 jest.mock("./api");
@@ -8,15 +8,19 @@ jest.mock("./api");
 describe("UserList component", () => {
   test("displays users after successful API call", async () => {
     api.fetchUsers.mockResolvedValue([
-      { id: 1, name: "Sunny" },
-      { id: 2, name: "Jeremy" },
+      { id: 1, name: "Jeremy Nagel" },
+      { id: 2, name: "Justin Nguyen" },
+      { id: 3, name: "Bang Luong Huynh" },
+      { id: 4, name: "Ben Pham" },
     ]);
 
     render(<UserList />);
 
     await waitFor(() => {
-      expect(screen.getByText("Sunny")).toBeInTheDocument();
-      expect(screen.getByText("Jeremy")).toBeInTheDocument();
+      expect(screen.getByText("Jeremy Nagel")).toBeInTheDocument();
+      expect(screen.getByText("Justin Nguyen")).toBeInTheDocument();
+      expect(screen.getByText("Bang Luong Huynh")).toBeInTheDocument();
+      expect(screen.getByText("Ben Pham")).toBeInTheDocument();
     });
   });
 

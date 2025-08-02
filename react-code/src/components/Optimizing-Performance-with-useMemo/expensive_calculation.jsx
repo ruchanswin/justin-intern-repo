@@ -5,7 +5,7 @@ const ExpensiveCalculation = () => {
   const [darkMode, setDarkMode] = useState(false);
 
   const expensiveResult = useMemo(() => {
-    console.log("⏳ Running expensive calculation...");
+    console.log("Running expensive calculation...");
     let result = 0;
     for (let i = 0; i <= number * 1000; i++) {
       result += i;
@@ -33,7 +33,7 @@ const ExpensiveCalculation = () => {
         />
       </div>
       <button onClick={() => setDarkMode(!darkMode)}>Toggle Theme</button>
-      <p>Result of expensive calc: {expensiveResult}</p>
+      <p>The calculation result is {expensiveResult}</p>
     </div>
   );
 };

@@ -1,5 +1,5 @@
-import Counter from "./Counter";
-import Message from "./Message";
+import Counter from "./counter";
+import Message from "./message";
 
 const App = () => {
   return (

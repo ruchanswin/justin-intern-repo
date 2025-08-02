@@ -7,14 +7,14 @@ const Counter = () => {
 
   return (
     <div style={{ marginBottom: "2rem" }}>
-      <h2>Counter: {count}</h2>
+      <h1>Counter: {count}</h1>
       <button
         onClick={() => dispatch(increment())}
         style={{ marginRight: "1rem" }}
       >
-        Increment
+        Increase
       </button>
-      <button onClick={() => dispatch(decrement())}>Decrement</button>
+      <button onClick={() => dispatch(decrement())}>Decrease</button>
     </div>
   );
 };

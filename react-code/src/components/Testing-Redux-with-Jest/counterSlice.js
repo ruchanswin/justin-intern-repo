@@ -8,7 +8,7 @@ export const fetchDummyData = createAsyncThunk(
 );
 
 const counterSlice = createSlice({
-  name: "counter",
+  name: "counterSlice",
   initialState: { value: 0, status: "ready" },
   reducers: {
     increment: (state) => {

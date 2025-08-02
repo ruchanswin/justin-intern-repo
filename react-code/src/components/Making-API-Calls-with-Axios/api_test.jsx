@@ -7,7 +7,7 @@ function TestApi() {
       try {
         const res = await api.post("/posts", {
           title: "Focus Bear Test",
-          body: "Hello world!",
+          body: "Hello everyone!",
           userId: 1,
         });
         console.log("Response:", res.data);

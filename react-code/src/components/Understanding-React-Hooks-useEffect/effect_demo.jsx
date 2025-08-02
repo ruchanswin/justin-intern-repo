@@ -6,10 +6,10 @@ const EffectDemo = () => {
 
   // Logs on mount and unmount
   useEffect(() => {
-    console.log("✅ Component mounted");
+    console.log("Component mounted");
 
     return () => {
-      console.log("❌ Component unmounted");
+      console.log("Component unmounted");
     };
   }, []);
 

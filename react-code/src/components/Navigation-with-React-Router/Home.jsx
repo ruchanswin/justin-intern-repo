@@ -4,8 +4,8 @@ const Home = () => {
   return (
     <div style={{ padding: "2rem" }}>
       <h2>Home Page</h2>
-      <p>Welcome to the homepage!</p>
-      <Link to="/profile">Go to Profile</Link>
+      <p>This is your homepage!</p>
+      <Link to="/profile">Profile</Link>
     </div>
   );
 };
