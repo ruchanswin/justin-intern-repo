@@ -1,5 +1,5 @@
 # Why is it useful to create a reusable Axios instance?
-- Consistency: Shared baseURL, headers, and timeout settings across all requests.
+ It centralizes configuration (base URL, headers, interceptors), reduces code duplication, and makes it easier to update settings for all requests in one place.
 
 # How does intercepting requests help with authentication?
  Interceptors can automatically attach authentication tokens to requests, handle token refresh, and manage errors, improving security and reducing repetitive code.

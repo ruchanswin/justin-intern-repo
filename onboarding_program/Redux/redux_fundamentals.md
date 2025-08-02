@@ -3,7 +3,7 @@
 - You shoudl use Redux when you need to manage global state that is shared across many components, especially in large or complex applications. It is helpful when:
 + Multiple components need access to the same state
 + You want predictable state updates and centralized state management
-+ you need advanced features like middleware, time-travel debugging, or undo/redo.
++ You need advanced features like middleware, time-travel debugging, or undo/redo.
 + The state logic is complex or needs to be reused.
 # Introduction to Redux Toolkit (State Management)
 * What are the benefits of using selectors instead of directly accessing state?
