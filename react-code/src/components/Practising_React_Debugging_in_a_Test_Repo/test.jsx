@@ -11,9 +11,9 @@ function Parent() {
   );
 }
 
-// Buggy version (do not use):
+// Buggy version:
 // function Child({ state }) {
-//   // Bug: Directly mutating props (state.count = state.count + 5)
+//   // Directly mutating props (state.count = state.count + 5)
 //   state.count = state.count + 5;
 //   return <div><p>count + 5 = {state.count}</p></div>;
 // }
@@ -25,7 +25,7 @@ function Child({ state }) {
   return <div><p>count + 5 = {countPlusFive}</p></div>;
 }
 
-// Alternative solution (also correct):
+// Alternative solution:
 // function Child({ state }) {
 //   // Create a copy of the state to avoid direct mutation
 //   const copy = { ...state };
