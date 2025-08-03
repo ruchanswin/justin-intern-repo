@@ -6,6 +6,7 @@ const Message = () => {
 
   let message = "Let's go!";
   if (count > 5) message = "Push yourself further!";
+  else if (count === 5) message = "You reach the checkpoint!";
   else if (count < 5 && count > 0) message = "Keep it up!";
   else if (count < 0) message = "Don't give up just yet!";
   

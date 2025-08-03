@@ -2,12 +2,12 @@ import "@testing-library/jest-dom";
 import { render, screen, fireEvent } from "@testing-library/react";
 import Greeting from "./Greeting";
 
-test("renders welcome message by default", () => {
+test("displays initial welcome message", () => {
   render(<Greeting />);
   expect(screen.getByText("Welcome to Focus Bear!")).toBeInTheDocument();
 });
 
-test("shows greeting message after button click", () => {
+test("displays greeting message after clicking the button", () => {
   render(<Greeting />);
   fireEvent.click(screen.getByText("Greeting"));
   expect(screen.getByText("Hello Justin!")).toBeInTheDocument();
