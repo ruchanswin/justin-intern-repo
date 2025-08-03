@@ -1,14 +1,14 @@
 import "./App.css";
-// import Counter from "./components/Using-Selectors-in-Redux-Toolkit/counter";
-// import Message from "./components/Using-Selectors-in-Redux-Toolkit/message";
-import Parent from "./components/Practising-React-Debugging-in-a-Test-Repo/test";
+// import Counter from "./components/Using_Selectors_in_Redux_Toolkit/counter";
+// import Message from "./components/Using_Selectors_in_Redux_Toolkit/message";
+import Parent from "./components/Practising_React_Debugging_in_a_Test_Repo/test";
 
 function App() {
   return (
     <div className="App">
-      {/* <Counter /> */}
+      {/* <Counter />
+      <Message /> */}
       <Parent />
-      {/* <Message /> */}
     </div>
   );
 }

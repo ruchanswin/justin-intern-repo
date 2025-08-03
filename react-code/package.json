@@ -9,12 +9,14 @@
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
     "formik": "^2.4.6",
+    "husky": "^9.1.7",
     "i18next": "^25.3.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-i18next": "^15.6.1",
     "react-redux": "^9.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^0.0.0",
+    "tailwind": "^2.3.1",
     "web-vitals": "^2.1.4",
     "yup": "^1.6.1"
   },
@@ -50,6 +52,7 @@
     "eslint": "^8.57.1",
     "eslint-plugin-react": "^7.37.5",
     "globals": "^16.3.0",
-    "prettier": "3.6.2"
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2"
   }
 }

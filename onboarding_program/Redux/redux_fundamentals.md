@@ -1,6 +1,6 @@
 # Using Selectors in Redux Toolkit
 * When should you use Redux instead of useState?
-- You shoudl use Redux when you need to manage global state that is shared across many components, especially in large or complex applications. It is helpful when:
+- You should use Redux when you need to manage global state that is shared across many components, especially in large and complex applications. For example:
 + Multiple components need access to the same state
 + You want predictable state updates and centralized state management
 + You need advanced features like middleware, time-travel debugging, or undo/redo.

@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { Provider } from "react-redux";
-import store from "./components/Using-Selectors-in-Redux-Toolkit/store";
+import store from "./components/Using_Selectors_in_Redux_Toolkit/store";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
