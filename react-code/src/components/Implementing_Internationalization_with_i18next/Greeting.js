@@ -12,7 +12,7 @@ function Greeting() {
     <div>
       <h1>{t("greeting")}</h1>
       <button onClick={() => changeLanguage("en")}>English</button>
-      <button onClick={() => changeLanguage("es")}>Español</button>
+      <button onClick={() => changeLanguage("vie")}>Tiếng Việt</button>
     </div>
   );
 }

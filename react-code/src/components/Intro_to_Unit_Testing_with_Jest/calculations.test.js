@@ -1,7 +1,7 @@
-import { add } from "./calculations";
-import { subtract } from "./calculations";
-import { multiply } from "./calculations";
-import { divide } from "./calculations";
+import { add } from "./Calculations";
+import { subtract } from "./Calculations";
+import { multiply } from "./Calculations";
+import { divide } from "./Calculations";
 
 test("perform natural number calculations", () => {
   expect(add(2, 3)).toBe(5);

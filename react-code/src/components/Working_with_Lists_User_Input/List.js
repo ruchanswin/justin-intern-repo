@@ -13,16 +13,16 @@ function App() {
 
   return (
     <div style={{ padding: "2rem", fontFamily: "sans-serif" }}>
-      <h1>Simple Form List</h1>
+      <h1>Form</h1>
       <input
         type="text"
         value={input}
         onChange={(e) => setInput(e.target.value)}
-        placeholder="Enter something..."
+        placeholder="Enter your details here: "
         style={{ marginRight: "1rem", padding: "0.5rem" }}
       />
       <button onClick={handleAdd} style={{ padding: "0.5rem" }}>
-        Add
+        Submit
       </button>
 
       <ul style={{ marginTop: "1rem" }}>

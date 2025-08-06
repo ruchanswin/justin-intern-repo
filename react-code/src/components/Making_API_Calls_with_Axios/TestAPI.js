@@ -6,13 +6,15 @@ function TestApi() {
     const fetchData = async () => {
       try {
         const res = await api.post("/posts", {
-          title: "Focus Bear Test",
-          body: "Hello everyone!",
+          title: "API Test",
+          body: "Welcome to Focus Bear!",
           userId: 1,
         });
         console.log("Response:", res.data);
+        // Redirect after successful response
+        window.location.href = "/success";
       } catch (err) {
-        console.error("Request failed:", err.message);
+        console.error("Failed request:", err.message);
       }
     };
 

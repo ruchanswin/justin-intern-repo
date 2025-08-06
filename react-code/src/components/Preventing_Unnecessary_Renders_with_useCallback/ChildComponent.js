@@ -6,7 +6,7 @@ const ChildComponent = React.memo(({ onClick }) => {
     <div
       style={{ border: "1px solid #ccc", padding: "1rem", marginTop: "1rem" }}
     >
-      <button onClick={onClick}>Click Me</button>
+      <button onClick={onClick}>Click</button>
     </div>
   );
 });

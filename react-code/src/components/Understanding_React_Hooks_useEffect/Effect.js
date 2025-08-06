@@ -4,7 +4,7 @@ const EffectDemo = () => {
   const [data, setData] = useState(null);
   const [show, setShow] = useState(true);
 
-  // Logs on mount and unmount
+  // Logs a message when it mounts and unmounts.
   useEffect(() => {
     console.log("Component mounted");
 
@@ -13,11 +13,11 @@ const EffectDemo = () => {
     };
   }, []);
 
-  // Fetch function triggered on button click
+  // Fetches data from an API when a button is clicked.
   const fetchData = async () => {
     try {
       const response = await fetch(
-        "https://jsonplaceholder.typicode.com/posts/1",
+        "https://jsonplaceholder.typicode.com/todos/1",
       );
       const json = await response.json();
       setData(json);
@@ -26,7 +26,13 @@ const EffectDemo = () => {
     }
   };
 
-  if (!show) return <p>Component hidden</p>;
+  if (!show)
+    return (
+      <div>
+        <p>Component hidden</p>
+        <button onClick={() => setShow(true)}>Mount Component</button>
+      </div>
+    );
 
   return (
     <div style={{ padding: "1rem", border: "1px solid #ccc" }}>
