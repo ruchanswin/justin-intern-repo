@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { api, controller } from "./api";
 
-function TestApi() {
+function TestAPI() {
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -26,4 +26,4 @@ function TestApi() {
   return <div>POST request sent. Check the console!</div>;
 }
 
-export default TestApi;
+export default TestAPI;

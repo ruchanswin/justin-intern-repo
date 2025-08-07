@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { fetchUsers } from "./api";
 
-function UserList() {
+function User() {
   const [users, setUsers] = useState([]);
   const [error, setError] = useState("");
 
@@ -23,4 +23,4 @@ function UserList() {
   );
 }
 
-export default UserList;
+export default User;

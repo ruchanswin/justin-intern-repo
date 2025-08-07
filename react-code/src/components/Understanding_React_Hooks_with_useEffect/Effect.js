@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const EffectDemo = () => {
+const Effect = () => {
   const [data, setData] = useState(null);
   const [show, setShow] = useState(true);
 
@@ -36,7 +36,7 @@ const EffectDemo = () => {
 
   return (
     <div style={{ padding: "1rem", border: "1px solid #ccc" }}>
-      <h2>useEffect Demo</h2>
+      <h2>useEffect</h2>
       <button onClick={fetchData}>Fetch Data</button>
       <button onClick={() => setShow(false)} style={{ marginLeft: "1rem" }}>
         Unmount Component
@@ -52,4 +52,4 @@ const EffectDemo = () => {
   );
 };
 
-export default EffectDemo;
+export default Effect;

@@ -1,7 +1,7 @@
 import { useFormik } from "formik";
 import * as Yup from "yup";
 
-const MyForm = () => {
+const Form = () => {
   const formik = useFormik({
     initialValues: {
       name: "Your name here: ",
@@ -56,4 +56,4 @@ const MyForm = () => {
   );
 };
 
-export default MyForm;
+export default Form;

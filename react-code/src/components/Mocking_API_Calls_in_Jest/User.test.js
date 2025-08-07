@@ -1,11 +1,11 @@
 import "@testing-library/jest-dom";
 import { render, screen, waitFor } from "@testing-library/react";
-import UserList from "./users";
+import User from "./User";
 import * as api from "./api";
 
 jest.mock("./api");
 
-describe("UserList component", () => {
+describe("User component", () => {
   test("displays users after successful API call", async () => {
     api.fetchUsers.mockResolvedValue([
       { id: 1, name: "Jeremy Nagel" },
@@ -14,7 +14,7 @@ describe("UserList component", () => {
       { id: 4, name: "Ben Pham" },
     ]);
 
-    render(<UserList />);
+    render(<User />);
 
     await waitFor(() => {
       expect(screen.getByText("Jeremy Nagel")).toBeInTheDocument();
@@ -27,7 +27,7 @@ describe("UserList component", () => {
   test("displays error on failed API call", async () => {
     api.fetchUsers.mockRejectedValue(new Error("API failed"));
 
-    render(<UserList />);
+    render(<User />);
 
     await waitFor(() => {
       expect(screen.getByText("Failed to load users")).toBeInTheDocument();

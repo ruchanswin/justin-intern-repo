@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div style={{ padding: "2rem", fontFamily: "sans-serif" }}>
-      <h1>Form</h1>
+      <h1>List</h1>
       <input
         type="text"
         value={input}
