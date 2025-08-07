@@ -25,7 +25,7 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
-      <h1 className="text-3xl font-bold text-blue-600">Hello Tailwind!</h1>
+      <h1 className="text-3xl font-bold text-blue-600">This one makes sure Tailwind work properly!</h1>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
