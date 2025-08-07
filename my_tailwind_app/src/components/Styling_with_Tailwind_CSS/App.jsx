@@ -1,11 +1,12 @@
-import Counter from "./Counter";
+import Counter from './components/Styling_with_Tailwind_CSS/Counter';
+import './App.css'
 
-const App = () => {
+function App() {
   return (
-    <div className="min-h-screen bg-gray-900 flex items-center justify-center">
+    <>
       <Counter />
-    </div>
+    </>
   );
-};
+}
 
-export default App;
+export default App
