@@ -1,6 +1,6 @@
 # The code doesn't have any error handling. If the input is invalid, it can break the code.
 DISCOUNT_RATE = 0.2
-def calculate_discount_price(price):
+def calculate_discount(price):
     return price * (1 - DISCOUNT_RATE)
 
 # The code handles errors properly. When the price is not a number, boolean, or negative, the code will raise an error.
@@ -14,3 +14,22 @@ def calculate_discount_price(price):
     if price < 0:
         raise ValueError("Price cannot be negative.")
     return price * (1 - DISCOUNT_RATE)
+
+# Testing the code
+# No error handling
+calculate_discount(100) 
+calculate_discount("yolo")  
+calculate_discount(False)  
+calculate_discount(-15)  
+
+# With error handling
+calculate_discount_price(100)
+calculate_discount_price("yolo")
+calculate_discount_price(False)
+calculate_discount_price(-15)
+
+
+
+
+
+
