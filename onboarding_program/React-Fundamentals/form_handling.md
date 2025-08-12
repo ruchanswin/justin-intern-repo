@@ -1,4 +1,7 @@
 # How does Formik simplify form management compared to handling state manually?
+
 - Formik streamlines form logic by abstracting away the repetitive tasks involved in managing form state, validation, and submission, which can reduce repetitive code and make forms easier to build and maintain.
+
 # What are the benefits of using Formik’s validation instead of writing validation logic manually?
+
 - Traditional validation logic is scattered across multiple handlers so it is hard and complex to reuse across forms and handle dependent fields or async validation. Because of that, it requires custom error rendering. But for Formik's validation, it is centralized using validate or validationSchema, can be reusable with Yup schemas, handles error display automatically using <ErrorMessage>, supports async validation and dependent field logic. These advantages make the code cleaner and more maintainable.
