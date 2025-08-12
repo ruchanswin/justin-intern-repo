@@ -11,7 +11,7 @@
 * Testing can point out the function's weaknesses, which allows me to refactor the code and strengthen code security.
 * It is important to write clear, concise tests that are related to the function's purposes.
 
-# Handling Errors & Edge Cases
+## Handling Errors & Edge Cases
 
 * What was the issue with the original code?
 * For the example, I'm using the price calculation to demonstrate how this function lacks necessary errors handling and edge case covering. To refactor the code, I've added if-else statements to test if the input is valid (positive integer or float values). If the input is unsatisfactory, the function will return errors.
@@ -20,7 +20,7 @@
 * Defensive coding (like guard clauses) ensures the code doesn’t break when users enter invalid input.
 * Good error messages allow developers to understand what's going wrong for debugging.
 
-# Commenting & Documentation
+### Commenting & Documentation
 
 * When should you add comments?
 * When you want to explain the context or intent behind the code and not restate the obvious.
@@ -31,7 +31,7 @@
 * When the code contain bad naming convention which can be confused for readers.
 * When the comments are outdated and unrelated to the code purposes, you should remove or update them.
 
-# Refactoring Code for Simplicity
+#### Refactoring Code for Simplicity
 
 * What made the original code complex?
 * The original code for extracting even numbers used an explicit for-loop with manual indexing and conditional logic, making it longer and harder to read. Since it required tracking the index and appending to a result list, it added unnecessary complexity for a simple task.
@@ -40,7 +40,7 @@
 * Refactoring replaced the manual loop with a list comprehension, making the code much shorter and more readable.
 * The intent of the code is now clear in a single line, reducing the risk of errors and making maintenance easier.
 
-# Avoiding Code Duplication
+##### Avoiding Code Duplication
 
 * What were the issues with duplicated code?
 * Any changes would need to be made in multiple places, increasing the risk of inconsistencies and bugs.
@@ -51,7 +51,7 @@
 * Refactoring removed the duplicated code by combining similar functions into one reusable function, so any changes only need to be made in a single place, reducing the risk of inconsistencies.
 * The code is shorter, easier to read, and less error-prone, making future maintenance and updates much simpler.
 
-# Writing Small, Focused Functions
+###### Writing Small, Focused Functions
 
 * Why is breaking down functions beneficial?
 * Smaller, focused functions are easier to read, understand, and test.
@@ -64,7 +64,7 @@
 * The main function now reads like a sequence of clear steps, making the logic easier to follow.
 * This modular structure makes the codebase more maintainable and extensible.
 
-# Naming Variables & Functions
+####### Naming Variables & Functions
 
 * What makes a good variable or function name?
 * A good name is descriptive, specific, and clearly indicates the purpose or value it represents.
@@ -81,7 +81,7 @@
 * The code is now self-explanatory, making it easier for anyone to understand its purpose without extra comments.
 * Clear naming reduces cognitive load and helps prevent mistakes.
 
-## Code Formatting & Style Guide
+######## Code Formatting & Style Guide
 
 * Why is code formatting important?
 * Consistent formatting makes code easier to read, understand, debug and maintain for everyone on the team, prevent bugs caused by inconsistent structure. It also supports code reviews and collaboration.
@@ -93,7 +93,7 @@
 * Did formatting the code make it easier to read?
 * Yes, formatting the code made it much easier to scan and understand. Proper indentation, spacing, and alignment help highlight the structure and logic of the code.
 
-### Understanding Clean Code Principles
+######### Understanding Clean Code Principles
 
 * Research and summarize the clean code principles
 * Simplicity: Keep logic straightforward and use the least complex solution that works (prefer clear structure over cleverness, break problems into small, manageable parts, avoid unnecessary abstractions or premature optimizations).

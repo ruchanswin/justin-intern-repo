@@ -18,6 +18,6 @@
 
 Yes, I do. As I mentioned above, productivity and concentration are big problems for uni students, and I believe Focus Bear is doing the right thing to support these struggles. Low concentration and productivity are more likely to make you procastinated and negatively affect my mental health. With the help of Focus Bear, I can deal with schoolwork better and because I spend less time and efforts to finish the work, I will have more time for social lives, like hanging out with my friends or spending time for entertainment.
 
-# Do you know someone with ADHD or autism or even someone without a diagnosis who has struggled socially or to perform well at uni? How might Focus Bear help them?
+###### Do you know someone with ADHD or autism or even someone without a diagnosis who has struggled socially or to perform well at uni? How might Focus Bear help them?
 
 I know some friends who are diagnosed with ADHD, and one thing I noticed is that they have difficulties focusing on their taks. They sometimes may leave the desk to do something else, and someone has to intervene to help them stay focused again. And because the events repeat regularly, it takes them more time to finish the tasks, which results in lower productivity than normal people. In my opinion, Focus Bear can help them stay focused on their tasks by blocking any available distractions, or building habits to help them concentrate.
