@@ -21,7 +21,9 @@
 * What did you learn from reviewing an open-source PR? (React PRs).
 
 ## Specific Example
+
 <https://github.com/facebook/react/pull/34026>
+
 * The title is clear to show what was changed (Allow assigning ref-accessing functions to objects if not mutated) and where was changed (complier)
 * The description restated the change and demonstrated how it should be changed (rewrite the ref validation to use the new mutation/aliasing effects, which would provide a more consistent behavior across instruction types and require fewer special cases like this.)
 * The PR then went through testing cases by a code maintainer to make sure the code meets the requirements and no conflicts appear between the feature branch and the main branch.
