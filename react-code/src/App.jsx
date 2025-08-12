@@ -1,11 +1,13 @@
 import "./App.css";
-import HelloWorld from "./components/Understanding_Components_and_Props/HelloWorld";
+import Counter from "./components/Using_Selectors_in_Redux_Toolkit/Counter";
+import Message from "./components/Using_Selectors_in_Redux_Toolkit/Message";
 
 function App() {
   return (
     <div className="App">
-      <HelloWorld name = "Focus Bear" />
-      </div>
+      <Counter />
+      <Message />
+    </div>
     );
 }
 
