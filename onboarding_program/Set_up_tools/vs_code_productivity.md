@@ -1,7 +1,7 @@
 # Research VS Code shortcuts and list at least 10 shortcuts that you find useful (multiple cursors are a must have). Categorise them into Navigation, Editing, Debugging, and Terminal Commands
 
 - Navigation: Ctrl + P (Quick file open by name), Ctrl + Shift + O (Go to symbol in file), Ctrl + Tab (switch between open tabs)
-- Editing: Ctrl + D (select next occurence of the selected word), Ctrl + / (toggle line comment), Ctrl + F (find words), Ctrl + H (replace words)
+- Editing: Ctrl + D (select next occurrence of the selected word), Ctrl + / (toggle line comment), Ctrl + F (find words), Ctrl + H (replace words)
 - Debugging: F9 (toggle breakpoints), F5 (start debugging), F10 (step over), F11 (step into), Shift + F5 (stop debugging)
 - Terminal: Ctrl + Shift + ` (create new terminals), Ctrl + Shift + 5 (split terminals)
 

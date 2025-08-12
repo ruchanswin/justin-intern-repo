@@ -1,7 +1,7 @@
 # Navigation with React Router
 
 * What are the advantages of client-side routing?
-* It supports fast navigation because it doesn't need to load the full page, it just loads the necessary components, which makes the trasitions smoother and improves user experience. Also, app state like form inputs or scroll position can persist across route changes, and you can integrate the client-side routing with server-side rendering using Next.js framework.
+* It supports fast navigation because it doesn't need to load the full page, it just loads the necessary components, which makes the transitions smoother and improves user experience. Also, app state like form inputs or scroll position can persist across route changes, and you can integrate the client-side routing with server-side rendering using Next.js framework.
 
 ## Working with Lists & User Input
 

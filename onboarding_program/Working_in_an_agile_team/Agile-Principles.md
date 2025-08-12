@@ -34,7 +34,7 @@
 
 - Workflow management: Kanban uses a continuous flow approach where tasks move through various stages on a Kanban board; while Scrum uses fixed-length sprints to deliver increments of work.
 - Roles and Responsibilities: Kanban has no defined roles; while Scrum has roles including Scrum Master, Product Owner, and Development Team.
-- Flexibility and Adaptability: Kanban is highly flexible becasue tasks can be added or reprioritized at any time; while Scrum is less flexible since changes are generally not made during a sprint.
+- Flexibility and Adaptability: Kanban is highly flexible because tasks can be added or re-prioritised at any time; while Scrum is less flexible since changes are generally not made during a sprint.
 - Visualization and Tracking: Kanban visualizes tasks on a Kanban board with WIP limits to manage flow; while Scrum ues a product backlog and sprint backlog to manage tasks.
 - Metrics: Kanban focuses on lead time and cycle time; while Scrum focuses on team velocity and sprint burndown.
 
@@ -61,7 +61,7 @@
 
 # Summarize the main differences between Scrum and Kanban in your own words
 
-- Scrum uses a fixed time frame with goals to deliver work, while Kanban is flexible for deadlines and prioritises changes.
+- Scrum uses a fixed time frame with goals to deliver work, while Kanban is flexible for deadlines and priority changes.
 
 # Identify one Agile principle you think will be most useful in your work
 

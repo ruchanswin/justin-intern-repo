@@ -36,7 +36,7 @@
 
 * Explore commit histories in an open-source GitHub project (React) and analyze good vs. bad commit messages.
 * Good commit messages in React: They use convention like "Bug:", "Compile Bug" or "Feature Request" to indicate the types of changes. The tiles are clear, which state the current problems and where they happen. The description are informative, which demonstrate the types of issue, the link to the repo, the frequency of the errors, the versions of React and React Complier that the developer is using.
-* Bad commit messages: I cannot find any bad messages in this open-source project, but common signs of bad commit messages are short, vague messages like "fixed" or "changed" (no contexts, no issues stated, no code locationa and no detailed purposes) or messages unrelated to the codebase like "final final".
+* Bad commit messages: I cannot find any bad messages in this open-source project, but common signs of bad commit messages are short, vague messages like "fixed" or "changed" (no contexts, no issues stated, no code location and no detailed purposes) or messages unrelated to the codebase like "final final".
 
 * What makes a good commit message?
 * The message is clear and specific (it should demonstrate what was changes and why/how it was changed).

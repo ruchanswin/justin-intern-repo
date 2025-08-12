@@ -8,7 +8,7 @@
 
 ### Why do you think this mission is important?
 
-- Because people who are diagnosed with ADHD or autism have increased, and the age range of diagnosed has broaden, which means there will be more people who are struggled with daily lives. Focus Bear can help people overcome the difficulities and adapt to ordinary academic or working lives, which can result in better productivity and increased mental health. The mission has a great impact on huge population, and it also helps spread awareness for everyone to provide enough support for neurodivergent people.
+- Because people who are diagnosed with ADHD or autism have increased, and the age range of diagnosed has broaden, which means there will be more people who are struggled with daily lives. Focus Bear can help people overcome the difficulties and adapt to ordinary academic or working lives, which can result in better productivity and increased mental health. The mission has a great impact on huge population, and it also helps spread awareness for everyone to provide enough support for neurodivergent people.
 
 #### How does Focus Bear’s work align with your personal values or interests?
 
@@ -20,4 +20,4 @@ Yes, I do. As I mentioned above, productivity and concentration are big problems
 
 ###### Do you know someone with ADHD or autism or even someone without a diagnosis who has struggled socially or to perform well at uni? How might Focus Bear help them?
 
-I know some friends who are diagnosed with ADHD, and one thing I noticed is that they have difficulties focusing on their taks. They sometimes may leave the desk to do something else, and someone has to intervene to help them stay focused again. And because the events repeat regularly, it takes them more time to finish the tasks, which results in lower productivity than normal people. In my opinion, Focus Bear can help them stay focused on their tasks by blocking any available distractions, or building habits to help them concentrate.
+I know some friends who are diagnosed with ADHD, and one thing I noticed is that they have difficulties focusing on their tasks. They sometimes may leave the desk to do something else, and someone has to intervene to help them stay focused again. And because the events repeat regularly, it takes them more time to finish the tasks, which results in lower productivity than normal people. In my opinion, Focus Bear can help them stay focused on their tasks by blocking any available distractions, or building habits to help them concentrate.

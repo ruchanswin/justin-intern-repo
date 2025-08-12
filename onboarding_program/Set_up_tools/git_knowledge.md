@@ -1,6 +1,6 @@
 # Have you used Git before? If so, in what context?
 
-- I have used Git multiple times before since I started my course in 2023. I use Git mainly for version control, code pushing/pulling and code sharing. For example, I want to get anyone to work on the same project, so create a repo and push it onto Github is essential. Git is needed for later synchronization, since everyone has different progreeses, fetching Git is needed before you start working on the project to avoid conflict. To avoid conflicts efficiently, we can create branches to work on our own, then review each member's branch before merging all the branches and push the code.
+- I have used Git multiple times before since I started my course in 2023. I use Git mainly for version control, code pushing/pulling and code sharing. For example, I want to get anyone to work on the same project, so create a repo and push it onto Github is essential. Git is needed for later synchronization, since everyone has different progress, fetching Git is needed before you start working on the project to avoid conflict. To avoid conflicts efficiently, we can create branches to work on our own, then review each member's branch before merging all the branches and push the code.
 
 ## Which Git client (if any) did you choose? Why? (e.g., GitHub Desktop, Git in VS Code)
 

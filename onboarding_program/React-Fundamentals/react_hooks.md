@@ -1,4 +1,4 @@
-# Preventing Unneccesary Renders with useCallback
+# Preventing Unnecessary Renders with useCallback
 
 * What problem does useCallback solve?
 * It prevents unnecessary re-creations of functions on every render, and helps avoid unwanted re-renders in deeply nested components.
@@ -31,7 +31,7 @@
 * When you need to run side effects that happen on mount, update, or unmount like API calls or subscriptions, respond to state or prop changes outside of user interaction, and integrate external systems like localStorage, timers, and analytics.
 
 * What happens if you don’t provide a dependency array?
-* The effect will keep running after every render, which can cause performance issues, infinite loops and unintended side effects, especially when the function is expensive or needs to access data. Adding the dependancies ensures React knows when to run the effect.
+* The effect will keep running after every render, which can cause performance issues, infinite loops and unintended side effects, especially when the function is expensive or needs to access data. Adding the dependencies ensures React knows when to run the effect.
 
 * How can improper use of useEffect cause performance issues?
 * The improper use of useEffect can lead to missing dependencies, and these misses can cause stale data and skipped updates. Also, using too many dependencies and computation power can trigger unnecessary re-renders that create uncontrolled loops if state updates are inside effects, and block the main thread.

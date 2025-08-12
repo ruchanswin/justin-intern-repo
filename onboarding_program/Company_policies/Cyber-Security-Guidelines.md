@@ -24,7 +24,7 @@
 
 # What makes a strong password, and why should you use a password manager?
 
-- A strong password is a combination of special characters, upper and lower case letters and numbers, along with a minimum length of 8. You should not use the same password for multiple accounts becasue in the event of cyberattacks, one exposed password could lead to a huge amount of data being stolen.
+- A strong password is a combination of special characters, upper and lower case letters and numbers, along with a minimum length of 8. You should not use the same password for multiple accounts because in the event of cyber attacks, one exposed password could lead to a huge amount of data being stolen.
 - A password manager is used to generate secure passwords and store them with encryption. It reduces the need to create and memorize passwords ourselves.
 
 # Why is two-factor authentication (2FA) important, and when should you enable it?
@@ -38,7 +38,7 @@
 
 - Common security measures that I use are MFA like 2-step authentication via authenticator app (Microsoft or Google Authenticator) and phone or mail verification, creating strong password (should be at least 8 characters, including a combination of special characters, upper and lower cases, number and don't contain personal information), and don't use the same password for every accounts (in the past I used the same password for multiple accounts, so now I have to change the passwords to enhance security)
 - Set biometric authentication for sensitive app (bank accounts, password managers, access to electronic devices)
-- Be aware of cyberattacks like phishing, don't click on unsafe links and don't give out sensitive information to unreliable websites
+- Be aware of cyber attacks like phishing, don't click on unsafe links and don't give out sensitive information to unreliable websites
 - Lock your devices when you're not present (for laptop you can simply close the monitor or find the "Lock" function, for mobile phones you should turn it off)
 - You can use password manager to save the passwords. It can also generate secure passwords and save them so you don't have to remember them. (I mostly use password manager integrated on the browsers, but I'm happy to find other options)
 
@@ -48,20 +48,20 @@
 - You should back up your data and update your phones and laptops since these updates contain important bug fixing or security measures. Most of them have automatic updates feature to make sure you're up to date.
 - Always lock your devices when you're away.
 - Don't carelessly share passwords to other people, even your acquaintances, especially for apps containing important information like banking apps.
-- Check if there are any suspicious activities (Google always sends notifications when there are any unusual behaviours), and change the passwords if the unusual behaviours are too frequent.
+- Check if there are any suspicious activities (Google always sends notifications when there are any unusual behaviour), and change the passwords if the unusual behaviour are too frequent.
 
 ## What steps will you take to ensure your passwords and accounts are secure?
 
-- Make sure to not repeat passwords for every accounts and create strong paasswords
+- Make sure to not repeat passwords for every accounts and create strong passwords
 - Set up MFA
 - Change passwords every 2-3 months or when you notice unusual activities
-- Use password managers to secure your passwords (not recommended to use the browsers as they are vulnerable to cyberattacks)
+- Use password managers to secure your passwords (not recommended to use the browsers as they are vulnerable to cyber attacks)
 
 ## What would you do if you suspected a security breach or suspicious activity on your account?
 
 - Change passwords immediately and set up MFA
 - Report suspicious activities and ask managers or IT support to remove them
-- Back up my data in case of cyberattacks
+- Back up my data in case of cyber attacks
 - Review the watch history of my account to see if I have access unreliable websites or provide malicious hackers access to sensitive data
 
 🛠️ Task

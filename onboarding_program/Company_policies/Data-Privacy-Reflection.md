@@ -8,7 +8,7 @@
 
 - Apply principle of least privilege (a user should have minimum access necessary to work on, reducing the risks of unauthorized access and data leakage)
 - Using secure platforms and services to store and share data (company emails, shared documents with passwords).
-- Don't share data to irrevelant people or outsiders.
+- Don't share data to irrelevant people or outsiders.
 - Using passwords and multi-layered authentication.
 
 # How should you respond to a suspected data breach or accidental disclosure of confidential information?
@@ -30,7 +30,7 @@
 
 # How should you store, share, and dispose of sensitive information safely?
 
-- You should store sensitive information in the cloud with encryption, and always back up your data because you need data recovery after a cyberattack.
+- You should store sensitive information in the cloud with encryption, and always back up your data because you need data recovery after a cyber attack.
 - Sensitive data should only be shared via official channels, you can limit the access to certain people to avoid public access.
 - You should delete files completely by emptying the Recycle Bin, and delete any email with file attachments
 

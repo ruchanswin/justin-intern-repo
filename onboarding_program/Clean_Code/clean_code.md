@@ -3,7 +3,7 @@
 * How do unit tests help keep code clean?
 * Unit tests verify the functions work as expected and identify any errors before pushing the code to the codebase.
 * If the code is too complex to be tested, it needs refactoring.
-* When you make changes to the code, unit tests ensure the function behaviours remain the same.
+* When you make changes to the code, unit tests ensure the function behaviour remain the same.
 * Unit tests clarify the functions' purposes, so other developers could understand and avoid asking clarification questions.
 
 * What issues did you find while testing?

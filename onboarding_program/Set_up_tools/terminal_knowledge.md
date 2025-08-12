@@ -8,4 +8,4 @@ I don't make any major customizations, apart from changing the color theme to da
 
 ### What was the most useful command you learned today?
 
-For useful commands, I think that useful ones are always the common ones. So commands like pwd (display the current working path), cd (navigate to any file system), mkdir (to create new directory) are helpful. For new commands, I like cat (display the content of a file) and grep (to find a pattern within a file). Still, I mostly perform these commands manually rather than typing in these commmands onto a terminal (mostly because I don't remember them).
+For useful commands, I think that useful ones are always the common ones. So commands like pwd (display the current working path), cd (navigate to any file system), mkdir (to create new directory) are helpful. For new commands, I like cat (display the content of a file) and grep (to find a pattern within a file). Still, I mostly perform these commands manually rather than typing in these commands onto a terminal (mostly because I don't remember them).

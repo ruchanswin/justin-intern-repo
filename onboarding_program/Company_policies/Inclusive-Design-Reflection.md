@@ -17,7 +17,7 @@
 - Use clear and consistent layouts.
 - Keep navigation simple and predictable so that it is easy for users to find features.
 - Break up content into small, manageable chunks.
-- Allow users to customise notifications and animations (some visual elements could be distracting, so an option to turn them off is great).
+- Allow users to change notifications and animations (some visual elements could be distracting, so an option to turn them off is great).
 - Offer reminders and prompts for important actions.
 
 # How can we support neurodivergent team members in a professional setting? (Hint: Be clear in communication, respect different working styles, and allow flexibility.)

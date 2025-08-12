@@ -1,7 +1,7 @@
 # Spend 30 minutes talking with Chat GPT to understand different perspectives on using AI in coding. When is it helpful and when is it not?
 
-- AI is helpful if you want to generate code and syntax quickly, explain different concepts, adding comments to your code, optimizing your code performance and aumotate repetitive tasks. It can provide instant feedback, help debug errors, and offer suggestions for best practices.
-- AI may not be helpful for working on specific projects (academic, niche fields or projects containing confidential and sensitive data), can sometimes give incorrect or outdated answers due to halluncination, cannot replace human's crticial thinking or team collaboration for complex, and may be vulnerable to cyberattacks to exploit the AI tools' weaknesses.
+- AI is helpful if you want to generate code and syntax quickly, explain different concepts, adding comments to your code, optimizing your code performance and automate repetitive tasks. It can provide instant feedback, help debug errors, and offer suggestions for best practices.
+- AI may not be helpful for working on specific projects (academic, niche fields or projects containing confidential and sensitive data), can sometimes give incorrect or outdated answers due to hallucination, cannot replace human's critical thinking or team collaboration for complex, and may be vulnerable to cyber attacks to exploit the AI tools' weaknesses.
 
 ## When do you prefer using AI vs. searching Google?
 

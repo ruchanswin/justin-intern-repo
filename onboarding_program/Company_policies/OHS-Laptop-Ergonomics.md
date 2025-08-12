@@ -8,7 +8,7 @@
 
 - Laptop stands: raises laptops to eye levels, which can improve postures.
 - Ergonomic desks and chairs: supports back spine structure and reduces back pains.
-- External keyboards and mouses: separate screen and typing fuctions.
+- External keyboards and mouses: separate screen and typing functions.
 
 # What adjustments should be made to monitor height, chair position, and desk setup for a healthier workspace?
 
@@ -21,7 +21,7 @@
 - Frequent body stretches after each 30 minutes of working.
 - Postures should make the body parts relaxed.
 - Make some minor changes to your postures for blood circulation.
-- 20-20-20 rule: For 20 minutes, look 20 feets away in 20 seconds.
+- 20-20-20 rule: For 20 minutes, look 20 feet away in 20 seconds.
 
 📝 Reflection
 
@@ -29,7 +29,7 @@
 
 - I use a wireless mouse to relax my wrists and keep a safe distance from the screen.
 
-# What behavioural changes can you implement to improve posture and reduce strain? (e.g., sitting upright, taking regular breaks, adjusting screen height)
+# What behavioral changes can you implement to improve posture and reduce strain? (e.g., sitting upright, taking regular breaks, adjusting screen height)
 
 - Sit with straight back since it can help relax the shoulders.
 - Make body movements, drink water and take your eyes off the screen after around 30 minutes of work. These small habits can reduce pains and allow for blood circulation.

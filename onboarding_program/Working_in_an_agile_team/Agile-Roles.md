@@ -29,7 +29,7 @@ I'm currently a frontend developer intern in Focus Bear, and my task is to impro
 
 # Write a short description of how your role fits into the Agile team
 
-- As a frontend developer intern, I will build a UI to allow users to interact with the system, allow for a smooth and satisfactory user experience, ensure every feature work as expected, add new features, and maintain the web. I will work with other roles like QA to identify any bugs and fix them, PM to set goals and prioritises for the system, and UX to make sure my interface is accessible, especially for vulnerable populations.
+- As a frontend developer intern, I will build a UI to allow users to interact with the system, allow for a smooth and satisfactory user experience, ensure every feature work as expected, add new features, and maintain the web. I will work with other roles like QA to identify any bugs and fix them, PM to set goals and priorities for the system, and UX to make sure my interface is accessible, especially for vulnerable populations.
 
 # Identify one other role you frequently collaborate with and describe how you can improve teamwork with them
 

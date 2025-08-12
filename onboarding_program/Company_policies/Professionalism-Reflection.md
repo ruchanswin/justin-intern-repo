@@ -2,8 +2,8 @@
 
 # What are examples of professional vs. unprofessional behaviour in a casual work environment? (Hint: Think about communication, meeting etiquette, and teamwork.)
 
-- Profesional behaviours: communicating concisely, being punctual to meetings, standups or any meetups, respecting other people and their ideas, collaborating with your teammates, providing help and constructive feedback
-- Unprofesional: Be late to meetings without reasonable purposes, ignoring messages, talk rudely to other people by using offensive wording, lack responsibility for your work, not willing to help your teammates or blame them for all the faults
+- Professional behaviour: communicating concisely, being punctual to meetings, standups or any meetups, respecting other people and their ideas, collaborating with your teammates, providing help and constructive feedback
+- Unprofessional: Be late to meetings without reasonable purposes, ignoring messages, talk rudely to other people by using offensive wording, lack responsibility for your work, not willing to help your teammates or blame them for all the faults
 
 # What does respectful communication look like in remote teams? (e.g., tone in messages, handling disagreements, responding to feedback)
 
@@ -20,11 +20,11 @@
 
 # Have you ever experienced or witnessed great teamwork and professionalism? What made it effective?
 
-- Yes, I have. Great teamwork and professionalism are essential for the success and the quality of work. For me, it makes up for roughly 20-30% chance of success. Not all of my past experiences are rainbows and sunshines, some teammates are helpful and some lack responsibility for their work and for other members' efforts. Teamwork and professionalism are effective mainly based on how members interact with each other, how the work is distributed to suit with each member's interest and strength, and how time and efforts are used for tasks. One thing about teamwork and professionalism is that it takes time to grow these behaviours, so constructive feedback is important to help you learn.
+- Yes, I have. Great teamwork and professionalism are essential for the success and the quality of work. For me, it makes up for roughly 20-30% chance of success. Not all of my past experiences are rainbows and sunshines, some teammates are helpful and some lack responsibility for their work and for other members' efforts. Teamwork and professionalism are effective mainly based on how members interact with each other, how the work is distributed to suit with each member's interest and strength, and how time and efforts are used for tasks. One thing about teamwork and professionalism is that it takes time to grow these behaviour, so constructive feedback is important to help you learn.
 
 - One example to prove the importance of teamwork and professionalism is when I had a project back in 2024 to develop a web application for predicting flight fare and delays.
   - Our team wasn't coordinated at first, since this was the first time we met each other and we didn't know how each member works. We also lacked experience in building a website since our background stemmed from AI and data analytics, and we had conflicts with how the tasks should be distributed, working styles and schedules.
-  - As we proceeded the project, we collaborate better since we have adapted to how the project should be done. We also appreciate the help from other classmates and our tutor, who gave us constructive feedback on our work. We also had a united schedule to host meetings for keeping track on the progress of each member, any issues arised and the solutions to them.
+  - As we proceeded the project, we collaborate better since we have adapted to how the project should be done. We also appreciate the help from other classmates and our tutor, who gave us constructive feedback on our work. We also had a united schedule to host meetings for keeping track on the progress of each member, any issues arose and the solutions to them.
   - I learned a lot from this project, mainly teamwork and professionalism. What's important about working in a team is that you actually take responsibility on your work and other ones. It's fine if you lack coordination at the beginning, but you should be serious to adapt and learn to make up for your weaknesses.
 
 # What steps can you take to make sure your communication is clear, respectful, and inclusive?
@@ -63,4 +63,4 @@
 - Skip meetings or any standups without reasonable cause. This shows you're unprofessional and you lack respect to your work.
 - Be passive and only express your concerns or ideas when someone asks you.
 - Use AI or any other tools blankly without understanding their functionalities. If you don't understand, you can ask AI to explain their way of thinking.
-- Share confidential information of the company to other people. For example, if the data is being leaked, it can be used for cyberattacks like phishing or unwanted advertising.
+- Share confidential information of the company to other people. For example, if the data is being leaked, it can be used for cyber attacks like phishing or unwanted advertising.

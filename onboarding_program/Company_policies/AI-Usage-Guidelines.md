@@ -9,7 +9,7 @@
 # What are the benefits and risks of using AI in a professional setting?
 
 - Benefits: Save time and efforts, help with brainstorming and offer new way of thinking or new solutions.
-- Risks: Can generate inaccurate and biased information due to halluncination and biased training data, risks of data leakage, being over-reliant on AI tools.
+- Risks: Can generate inaccurate and biased information due to hallucination and biased training data, risks of data leakage, being over-reliant on AI tools.
 
 # What types of information should never be entered into AI tools?
 
