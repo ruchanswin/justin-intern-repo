@@ -14,7 +14,7 @@
 * Mocking Needs: Redux tests often mock dispatch functions and API calls, while React tests mock DOM events, browser APIs, and sometimes network requests.
 * Test Scales: Redux tests are unit-level, validating pure functions, while React tests can be integration-level, covering component trees and side effects.
 
-# Mocking API Calls in Jest
+## Mocking API Calls in Jest
 
 * Why is it important to mock API calls in tests?
 * The API calls ensure tests don’t depend on external services, avoid slow network calls, prevent failing tests due to API downtime, and allow testing edge cases and error handling.
@@ -24,7 +24,7 @@
 * You don't handle errors properly, which can cause promise rejections.
 * Over-mocking hides bugs, while under-mocking causes instability.
 
-# Testing React Components with Jest & React Testing Library
+### Testing React Components with Jest & React Testing Library
 
 * What are the benefits of using React Testing Library instead of testing implementation details?
 * It encourages testing from the user’s perspective, which leads to more robust and maintainable tests, avoiding easily broken tests tied to internal component structure, promoting accessibility-first testing via roles and labels, and making the tests more maintainable as components evolve.
@@ -32,7 +32,7 @@
 * What challenges did you encounter when simulating user interaction?
 * I encounter complex state changes especially with nested components or context, events that don't start in the correct order so I have to fix the sequence, some interactions like keyboard navigation require careful setup, some imports or file names are missing or misspelled.
 
-# Introduction to Unit Testing with Jest
+#### Introduction to Unit Testing with Jest
 
 * Why is automated testing important in software development?
 * It catches bugs early before they reach production, improves code quality through test-driven development, enables safe refactoring with confidence, and speeds up development by reducing manual testing.

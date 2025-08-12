@@ -5,10 +5,10 @@
 - Debugging: F9 (toggle breakpoints), F5 (start debugging), F10 (step over), F11 (step into), Shift + F5 (stop debugging)
 - Terminal: Ctrl + Shift + ` (create new terminals), Ctrl + Shift + 5 (split terminals)
 
-# Which shortcuts do you think will be the most useful in your daily work?
+## Which shortcuts do you think will be the most useful in your daily work?
 
 - As a developer, I find many shortcuts useful. For example, the Ctrl + H and Ctrl + F shortcuts can help me find variables and change them instead of manually find each one,which can lead to missing variables. The Ctrl + P shortcut lets me choose new files to switch to another one quickly, especially when there are too many files, and the Ctrl + Tab shortcut lets me switch between tabs easily so I don't have to move my mouse clicking on tabs.
 
-# How can keyboard shortcuts improve your productivity?
+### How can keyboard shortcuts improve your productivity?
 
 - They can reduce the amount of time to perform common actions (use shortcuts to find and replace words), reduce unnecessary mouse movements, help developers stay focused on their tasks and avoid interrupting workflow.

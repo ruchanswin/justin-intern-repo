@@ -7,7 +7,7 @@
 * You need advanced features like middleware, time-travel debugging, or undo/redo.
 * The state logic is complex or needs to be reused.
 
-# Introduction to Redux Toolkit (State Management)
+## Introduction to Redux Toolkit (State Management)
 
 * What are the benefits of using selectors instead of directly accessing state?
 * They abstract how state is retrieved, so components don’t need to know the state structure.

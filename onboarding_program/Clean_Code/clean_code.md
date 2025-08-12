@@ -81,7 +81,7 @@
 * The code is now self-explanatory, making it easier for anyone to understand its purpose without extra comments.
 * Clear naming reduces cognitive load and helps prevent mistakes.
 
-# Code Formatting & Style Guide
+## Code Formatting & Style Guide
 
 * Why is code formatting important?
 * Consistent formatting makes code easier to read, understand, debug and maintain for everyone on the team, prevent bugs caused by inconsistent structure. It also supports code reviews and collaboration.
@@ -93,7 +93,7 @@
 * Did formatting the code make it easier to read?
 * Yes, formatting the code made it much easier to scan and understand. Proper indentation, spacing, and alignment help highlight the structure and logic of the code.
 
-# Understanding Clean Code Principles
+### Understanding Clean Code Principles
 
 * Research and summarize the clean code principles
 * Simplicity: Keep logic straightforward and use the least complex solution that works (prefer clear structure over cleverness, break problems into small, manageable parts, avoid unnecessary abstractions or premature optimizations).

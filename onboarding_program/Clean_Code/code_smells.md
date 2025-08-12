@@ -9,13 +9,13 @@
 - Commented-out code: In the example, the sum_numbers function performs number addition, but it still keeps the old subtraction logic. This makes the code unnecessarily longer and if not commented-out properly, it can make the code malfunction and harder to read. It is recommended to remove unused code.
 - Inconsistent naming: In the example, the function for addition is named calc and the sum is named z. The names are too generic and doesn't show their real purposes, so for refactoring, the function name is changed to add_numbers and the sum is called total.
 
-# How did refactoring improve the readability and maintainability of the code?
+## How did refactoring improve the readability and maintainability of the code?
 
 - Refactoring helps create clear, concise functions with descriptive names to make it easier to understand the code, even if the readers are new.
 - Refactoring helps maintain the code easily since it breaks down long functions into smaller and more manageable ones.
 - Refactoring makes team collaboration and code review smooth since the team doesn't have to waste time understanding the code and asking clarification questions.
 
-# How can avoiding code smells make future debugging easier?
+### How can avoiding code smells make future debugging easier?
 
 - When the functions are small and readable, it is easy to find the bug when errors happen.
 - When you reuse the functions, you spend less effort and time to fix the functions instead of creating copy-pasted code and then needing to find every single piece of code for debugging.

@@ -30,7 +30,7 @@
 * I can see how developers collaborate with each other even though they have different schedules and working styles. Due to their meaningful commit messages, they can keep track with the current progress and enable later reviews.
 * I can see the way a professional pull request is made.
 
-# Writing Meaningful Commit Messages
+### Writing Meaningful Commit Messages
 
 * Explore commit histories in an open-source GitHub project (React) and analyze good vs. bad commit messages.
 * Good commit messages in React: They use convention like "Bug:", "Compile Bug" or "Feature Request" to indicate the types of changes. The tiles are clear, which state the current problems and where they happen. The description are informative, which demonstrate the types of issue, the link to the repo, the frequency of the errors, the versions of React and React Complier that the developer is using.
@@ -51,7 +51,7 @@
 * It makes it harder for later review if there are any incidents. Due to vague messages, the team has to read every single line of code to find the bugs, which affects the workflow and productivity.
 * For new members, they cannot understand how the code works because of poor documentation, so when they start working on the codebase, they will lose track and be unsure of what to do.
 
-# Understanding git bisect
+#### Understanding git bisect
 
 * What does git bisect do?
 * git bisect is a binary search tool built into Git to find the exact commit where a bug was introduced. You tell Git whether a commit is good (before the bug) or bad (after the bug), and Git will narrow down the range until it finds the commit that contains the bug.
@@ -64,7 +64,7 @@
 * How does it compare to manually reviewing commits?
 * git bisect allows developers to find bugs much faster with higher precision, while traditional approach requires developers to spend a huge amount of time to identify bugs and it is prone to errors. While git bisect requires initial setup, the time and effort saved from the search can make up for the setup; manual search requires developers to read the commit changes one-by-one which wastes a lot of time and effort and the bug is not guaranteed to be found. However, manual search allows you to understand the code structure and functions clearly, while git bisect is suitable for fixing bugs in small, specific functions.
 
-# Advanced Git Commands & When to Use Them
+##### Advanced Git Commands & When to Use Them
 
 * What does each command do?
 * git checkout main -- <file>: Restore a specific file from main without affecting other changes.
@@ -83,7 +83,7 @@
 * git cherry-pick can fail if the commit misses necessary contexts or documentation in your branch (missing imports or files).
 * git log has formatting options (--oneline, --graph, etc.) to turn it into a timeline powerhouse.
 
-# Merge Conflicts and Conflict Resolution
+###### Merge Conflicts and Conflict Resolution
 
 * What caused the conflict?
 * It happened due to overlapping changes in the same file from different branches. When conflicts happen, Git will stop the merge and mark the file with conflict markers (<<<<, ====, >>>>). The code between <<<< and ==== is the code appeared in the main branch, while the code between >>>> and ==== is the new one after pulling the code from other branches.
@@ -96,7 +96,7 @@
 * Using git client like GitHub Desktop can help identify the conflicts easily since it highlights the conflicts and provides clickable options.
 * It shows team communication is important. Good communication helps resolve the conflicts better since the team can discuss which features to keep and which to discard.
 
-# Branching & Team Collaboration
+####### Branching & Team Collaboration
 
 * Why is pushing directly to main problematic?
 * The changes are pushed directly without reviewing stages, which can lead to bugs, unfinished features, file conflicts and security vulnerabilities.
@@ -110,7 +110,7 @@
 * What happens if two people edit the same file on different branches?
 * This will create a merge conflict if the changes are overlapping each other. If the changes are on different parts of the file, Git can merge these branches into the main branch. Decisions must be made to keep which version/features and discard the unnecessary changes. The resolution of the conflicts require great team collaboration, decision-making and sympathy.
 
-# Git concept: staging vs committing
+######## Git concept: staging vs committing
 
 * What is the difference between staging and committing?
 * Staging (git add) is like preparing a snapshot of your changes. For example, you want a file, or a part of a file to be included in the next commit.

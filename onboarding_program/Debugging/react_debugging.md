@@ -7,7 +7,7 @@
 - Isolating components and writing unit tests to reproduce and fix bugs.
 - Checking the browser console for warnings and errors.
 
-# Which tools are most effective for React debugging?
+## Which tools are most effective for React debugging?
 
 - React DevTools is used to visualize the component tree, inspect props/state, and track re-renders.
 - Browser Developer Tools use the Elements panel, Console, and Sources for debugging JavaScript and DOM issues.
@@ -15,6 +15,6 @@
 - React Profiler analyzes component render performance and identify unnecessary re-renders or bottlenecks.
 - Error boundaries catch and display errors in the UI without crashing the whole app.
 
-# How do you debug issues in large React codebases?
+### How do you debug issues in large React codebases?
 
 - You should break down the large codebases into small components to reproduce the bug, use React DevTools to trace the flow of props and state through the component tree, add logging or breakpoints to follow data and event flow, use search and code navigation features in your IDE to track down where state or props are set/changed, write targeted unit or integration tests to isolate the components and identify the bug, collaborate with teammates and find relevant, credible resources to avoid duplicated effort.

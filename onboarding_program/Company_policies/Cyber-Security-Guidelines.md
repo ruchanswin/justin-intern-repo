@@ -34,7 +34,7 @@
 
 📝 Reflection
 
-### What security measures do you currently follow, and where can you improve?
+## What security measures do you currently follow, and where can you improve?
 
 - Common security measures that I use are MFA like 2-step authentication via authenticator app (Microsoft or Google Authenticator) and phone or mail verification, creating strong password (should be at least 8 characters, including a combination of special characters, upper and lower cases, number and don't contain personal information), and don't use the same password for every accounts (in the past I used the same password for multiple accounts, so now I have to change the passwords to enhance security)
 - Set biometric authentication for sensitive app (bank accounts, password managers, access to electronic devices)
@@ -42,7 +42,7 @@
 - Lock your devices when you're not present (for laptop you can simply close the monitor or find the "Lock" function, for mobile phones you should turn it off)
 - You can use password manager to save the passwords. It can also generate secure passwords and save them so you don't have to remember them. (I mostly use password manager integrated on the browsers, but I'm happy to find other options)
 
-### How can you make secure behaviour a habit rather than an afterthought?
+## How can you make secure behaviour a habit rather than an afterthought?
 
 - You should change your passwords frequently (every 2-3 months) and don't repeat passwords (password managers can help you generate distinct passwords and save them)
 - You should back up your data and update your phones and laptops since these updates contain important bug fixing or security measures. Most of them have automatic updates feature to make sure you're up to date.
@@ -50,14 +50,14 @@
 - Don't carelessly share passwords to other people, even your acquaintances, especially for apps containing important information like banking apps.
 - Check if there are any suspicious activities (Google always sends notifications when there are any unusual behaviours), and change the passwords if the unusual behaviours are too frequent.
 
-### What steps will you take to ensure your passwords and accounts are secure?
+## What steps will you take to ensure your passwords and accounts are secure?
 
 - Make sure to not repeat passwords for every accounts and create strong paasswords
 - Set up MFA
 - Change passwords every 2-3 months or when you notice unusual activities
 - Use password managers to secure your passwords (not recommended to use the browsers as they are vulnerable to cyberattacks)
 
-### What would you do if you suspected a security breach or suspicious activity on your account?
+## What would you do if you suspected a security breach or suspicious activity on your account?
 
 - Change passwords immediately and set up MFA
 - Report suspicious activities and ask managers or IT support to remove them

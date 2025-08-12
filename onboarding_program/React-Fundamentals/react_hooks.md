@@ -12,7 +12,7 @@
 * When the components don’t re-render frequently.
 * When the function is cheap and easy to recreate and doesn’t cause performance issues.
 
-# Optimizing Performance with useMemo
+## Optimizing Performance with useMemo
 
 * How does useMemo improve performance?
 * It avoids expensive recalculations by caching results, so it can prevent unnecessary renders when used with memoized components, which is useful for derived data like filtered lists or computed values.
@@ -25,7 +25,7 @@
 * What happens if you remove useMemo from your implementation?
 * The value will be recalculated on every render, which can cause unnecessary re-renders in child components relying on stable props and performance degradation if the computation is expensive.
 
-# Understanding React Hooks: useEffect
+### Understanding React Hooks: useEffect
 
 * When should you use useEffect instead of handling logic inside event handlers?
 * When you need to run side effects that happen on mount, update, or unmount like API calls or subscriptions, respond to state or prop changes outside of user interaction, and integrate external systems like localStorage, timers, and analytics.
