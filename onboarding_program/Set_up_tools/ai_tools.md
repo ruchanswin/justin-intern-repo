@@ -1,6 +1,11 @@
 # Which AI tools did you try? (GitHub Copilot - VS Code extension for code suggestions, ChatGPT for coding questions and debugging, Claude AI - alternative AI assistant for code help)
+
 - I have used many AI tools since I started my course in 2023. For common use, I have used ChatGPT (mostly for coding stuff, answering questions and drafting content for my written assignments) and Copilot website (mostly because of their webscreach feature, so I can ask them for their sources and look for them. One more reason is because the Copilot can be used at the sidebar, so instead of opening a new tab for ChatGPT I could just open the sidebar and copy-paste the questions for convenience). I have tried out other tools like Claude or Github Copilot extension.
-# What worked well? What didn’t?
+
+## What worked well? What didn’t?
+
 For Claude it performs well but since I'm already familiar with ChatGPT I just don't use it much and the Copilot extension doesn't work as I expected (its suggestions are useless) so at the end, I still stick with ChatGPT and Copilot (website version). ChatGPT is versatile since it's both good at coding problems and answering questions. Currently after its new model release, it also has more features like web search tool, which is useful for finding references for written reports. For Copilot, I like it mainly because of convenience and its quick responses.
-# When do you think AI is most useful for coding?
+
+### When do you think AI is most useful for coding?
+
 I think Ai is most useful when you treat them like supporters. For example, when you forget syntax to perform any actions, you can go ask them to provide the syntax. Or when you want to add comments to your code but you're just too lazy to do that yourself, you can feed the code to AI tools and ask them to read through the code, understand it clearly and then add the comments for functions that require explanation. Also when you're currently stuck with a stage or you want to optimize the performance of your programs, AI tools can provide you solutions and you can try them out. The most important thing is that you actually understand the content that AI tools provide and not blindly copy-paste the code. Besides, don't feed confidential data for AI tools since it can lead to data leakage.
