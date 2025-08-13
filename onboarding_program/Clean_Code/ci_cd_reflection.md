@@ -16,13 +16,6 @@
 - Enforcement: Enforcing CI/CD pipelines in small projects is often optional or lightweight, while large teams take CI/CD pipelines seriously with code ownership, required checks, and protected branches.
 - Collaboration: Small projects only require an individual or a small group to work on, while large teams has multiple sections with branching strategies, code reviews, and integration testing.
 
-<<<<<<< Updated upstream
-## How does automating style checks improve project quality?
-
-### What are some challenges with enforcing checks in CI/CD?
-
-#### How do CI/CD pipelines differ between small projects and large teams?
-=======
 ##### How to set up CI/CD workflow
 1. Create a new Github branch (you can use Github commands or Github Desktop interface) and create package.json file with npm init -y
 2. Install packages that will be use for Markdown linting and automated spell checks: markdownlint-cli (check .md formatting), cspell (find typos across files), husky (run scripts on git hooks like pre‑commit), lint-staged (run linters only on staged files)
@@ -37,4 +30,3 @@ npm i -D markdownlint-cli cspell husky lint-staged
 5. Add a local pre-commit hook (Husky). In the pre-commit file, replace the content inside with npx lint-staged
 6. Create the Github CI workflow file ci.yml
 7. Commit the branch, push the branch and then create the pull request.
->>>>>>> Stashed changes
